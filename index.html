@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4MIR | Developer, Gamer, Creator</title>
+<meta name="description" content="Portfolio of 4MIR: a young developer into Python, HTML, CSS, Lua, Java, Minecraft and creative technology.">
+<meta name="theme-color" content="#08080C">
+<meta property="og:title" content="4MIR | Developer, Gamer, Creator">
+<meta property="og:description" content="I build things, explore ideas, and turn code into experiences.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FF4FA3'/%3E%3Cstop offset='1' stop-color='%23A855F7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%2308080C'/%3E%3Ctext x='32' y='47' font-size='42' font-weight='800' font-family='Arial,sans-serif' text-anchor='middle' fill='url(%23g)'%3E4%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo" aria-label="4MIR home">4<span>MIR</span></a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="label">DEVELOPER • GAMER • CREATOR</p>
+      <h1>Hey, I'm <span class="grad">4MIR.</span></h1>
+      <p class="lead">I build things, explore ideas, and turn code into experiences.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">EXPLORE MY WORK</a>
+        <a class="btn ghost" href="#contact">LET'S CONNECT</a>
+      </div>
+      <p class="status"><span class="dot"></span>Currently building something cool.</p>
+    </div>
+    <div class="hero-vis" aria-hidden="true">
+      <div class="window glass">
+        <div class="bar"><i></i><i></i><i></i><span>4mir.py</span></div>
+        <pre><code><b class="k">class</b> <b class="c">Creator</b>:
+    <b class="k">def</b> <b class="f">build</b>(self, idea):
+        code = self.write(idea)
+        <b class="k">return</b> <b class="s">"an experience"</b><span class="caret"></span></code></pre>
+      </div>
+      <span class="chip c1">Python</span><span class="chip c2">HTML</span><span class="chip c3">CSS</span><span class="chip c4">Lua</span><span class="chip c5">Java</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap">
+    <h2 class="reveal">A LITTLE ABOUT ME</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <!-- EDIT: change this text any time -->
+        <p>I'm Amirali, a 14-year-old developer who goes by 4MIR online. I'm learning and building with Python, HTML, CSS, Lua and Java, and I enjoy figuring out how things work by making them myself.</p>
+        <p>Minecraft is a big part of what got me into coding, so a lot of my curiosity lives where games and creative technology meet. I'm still growing as a developer, and I'm here to keep learning, experimenting and sharing what I make.</p>
+      </div>
+      <aside class="card glass reveal" aria-label="Profile card">
+        <dl>
+          <div><dt>Name</dt><dd>Amirali</dd></div>
+          <div><dt>Alias</dt><dd>4MIR</dd></div>
+          <div><dt>Interests</dt><dd>Coding, Minecraft, Gaming</dd></div>
+          <div><dt>Favorite technologies</dt><dd>Java, Python, HTML, CSS, Lua</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS: edit the <p> text in each card to change descriptions -->
+<section id="skills" class="section">
+  <div class="wrap">
+    <h2 class="reveal">SKILLS</h2>
+    <div class="grid skills">
+      <article class="card glass reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3H9a3 3 0 0 0-3 3v3h6v1H5a3 3 0 0 0-3 3v1a3 3 0 0 0 3 3h2v-3a3 3 0 0 1 3-3h4a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"/><path d="M12 21h3a3 3 0 0 0 3-3v-3h-6v-1h7a3 3 0 0 0 3-3v-1a3 3 0 0 0-3-3h-2v3a3 3 0 0 1-3 3h-4a3 3 0 0 0-3 3v4"/></svg>
+        <h3>Python</h3><p>Writing scripts and small programs while learning how to solve problems step by step.</p>
+      </article>
+      <article class="card glass reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+        <h3>HTML</h3><p>Structuring web pages with clean, meaningful markup.</p>
+      </article>
+      <article class="card glass reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3C6 3 6 5 6 7s0 3-3 5c3 2 3 3 3 5s0 4 3 4M15 3c3 0 3 2 3 4s0 3 3 5c-3 2-3 3-3 5s0 4-3 4"/></svg>
+        <h3>CSS</h3><p>Styling layouts, animations and responsive designs.</p>
+      </article>
+      <article class="card glass reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M3 12c0-3 4-6 9-6M21 12c0 3-4 6-9 6"/><circle cx="19" cy="5" r="1.5"/></svg>
+        <h3>Lua</h3><p>Exploring a lightweight language often used in games.</p>
+      </article>
+      <article class="card glass reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h13v5a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-5zM17 11h1.5a2.5 2.5 0 0 1 0 5H17M8 3c-1 1.500 1 2.500 0 4M12 3c-1 1.500 1 2.500 0 4"/></svg>
+        <h3>Java</h3><p>Learning object-oriented programming, with Minecraft in mind.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS: all four are PLACEHOLDERS. Replace text, then add a GitHub link by uncommenting the <a> in a card. -->
+<section id="projects" class="section">
+  <div class="wrap">
+    <h2 class="reveal">PROJECTS</h2>
+    <div class="grid projects">
+      <article class="card glass proj reveal">
+        <div class="art a1" aria-hidden="true"></div>
+        <span class="badge">Placeholder</span>
+        <h3>Minecraft Projects</h3>
+        <p>Example card. Describe a Minecraft project you've built here.</p>
+        <div class="tags"><span>Java</span><span>Minecraft</span></div>
+        <!-- <a class="proj-link" href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">View on GitHub</a> -->
+      </article>
+      <article class="card glass proj reveal">
+        <div class="art a2" aria-hidden="true"></div>
+        <span class="badge">Placeholder</span>
+        <h3>Personal Web Experiments</h3>
+        <p>Example card. Show a page or experiment you've made.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span></div>
+      </article>
+      <article class="card glass proj reveal">
+        <div class="art a3" aria-hidden="true"></div>
+        <span class="badge">Placeholder</span>
+        <h3>Java Development</h3>
+        <p>Example card. Share something you've built with Java.</p>
+        <div class="tags"><span>Java</span></div>
+      </article>
+      <article class="card glass proj reveal">
+        <div class="art a4" aria-hidden="true"></div>
+        <span class="badge">Placeholder</span>
+        <h3>Creative Coding</h3>
+        <p>Example card. Add visuals, games or tools you've tried.</p>
+        <div class="tags"><span>Python</span><span>Lua</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- LINKS: URLs are set in script.js (CONFIG) -->
+<section id="contact" class="section">
+  <div class="wrap">
+    <h2 class="reveal">LET'S CONNECT</h2>
+    <div class="grid socials" id="socials"></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="f1">DESIGNED &amp; BUILT BY 4MIR</p>
+    <p>Turning ideas into code.</p>
+    <p class="copy">&copy; <span id="year">2026</span> 4MIR</p>
+  </div>
+</footer>
+
+<button class="top" id="top" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
